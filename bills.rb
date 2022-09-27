@@ -4,7 +4,7 @@ require 'csv'
 require 'fileutils'
 
 if ARGV.length > 1
-    puts "Usage: ruby run.rb <csv_file>"
+    puts "Usage: ./bills.rb <csv_file>"
     exit
 end
 
